@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import BreakfastGenerator from '../components/BreakfastRecipe'
 import Layout from '../components/Layout'
+import Shift from '../components/Shift'
 import Spiral from '../components/Spiral'
 import TwitterTimeline from '../components/TwitterTimeline'
 
@@ -12,6 +13,7 @@ const IndexPage = () => (
       <Spiral/>
       <TwitterTimeline/>
       <BreakfastGenerator/>
+      <Shift/>
     </p>
   </Layout>
 )
