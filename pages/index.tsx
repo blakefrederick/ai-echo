@@ -2,6 +2,7 @@ import Link from 'next/link'
 import BreakfastGenerator from '../components/BreakfastRecipe'
 import Game from '../components/Game'
 import Layout from '../components/Layout'
+import Lines from '../components/Lines'
 import Shift from '../components/Shift'
 import Spiral from '../components/Spiral'
 import TwitterTimeline from '../components/TwitterTimeline'
@@ -16,6 +17,7 @@ const IndexPage = () => (
       <BreakfastGenerator/>
       <Shift/>
       <Game/>
+      <Lines/>
     </p>
   </Layout>
 )
