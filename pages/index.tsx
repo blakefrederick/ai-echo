@@ -4,6 +4,7 @@ import Game from '../components/Game'
 import Layout from '../components/Layout'
 import Lines from '../components/Lines'
 import Shift from '../components/Shift'
+import Snowflake from '../components/Snowflake'
 import Spiral from '../components/Spiral'
 import TwitterTimeline from '../components/TwitterTimeline'
 
@@ -18,6 +19,7 @@ const IndexPage = () => (
       <Shift/>
       <Game/>
       <Lines/>
+      <Snowflake/>
     </p>
   </Layout>
 )
